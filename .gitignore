@@ -1,4 +1,4 @@
-bode_modules/
+node_modules/
 coverage/
 dist/
 dir/
