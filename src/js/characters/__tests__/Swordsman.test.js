@@ -10,11 +10,11 @@ const expected = {
 };
 
 test('correct creating Swordsman', () => {
-  const received = new Swordsman('Lancelot', 'Swordsman');
+  const received = new Swordsman('Lancelot');
 
   expect(received).toEqual(expected);
 });
 
 test('correct creating Swordsman without error', () => {
-  expect(() => new Swordsman('Lancelot', 'Swordsman')).not.toThrowError();
+  expect(() => new Swordsman('Lancelot')).not.toThrowError();
 });

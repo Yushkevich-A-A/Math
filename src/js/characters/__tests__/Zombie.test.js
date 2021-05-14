@@ -10,11 +10,11 @@ const expected = {
 };
 
 test('correct creating Zombie', () => {
-  const received = new Zombie('Shaun', 'Zombie');
+  const received = new Zombie('Shaun');
 
   expect(received).toEqual(expected);
 });
 
 test('correct creating Zombie without error', () => {
-  expect(() => new Zombie('Shaun', 'Zombie')).not.toThrowError();
+  expect(() => new Zombie('Shaun')).not.toThrowError();
 });

@@ -10,11 +10,11 @@ const expected = {
 };
 
 test('correct creating bowman', () => {
-  const received = new Bowerman('Robin Hood', 'Bowman');
+  const received = new Bowerman('Robin Hood');
 
   expect(received).toEqual(expected);
 });
 
 test('correct creating bowman without error', () => {
-  expect(() => new Bowerman('Robin Hood', 'Bowman')).not.toThrowError();
+  expect(() => new Bowerman('Robin Hood')).not.toThrowError();
 });

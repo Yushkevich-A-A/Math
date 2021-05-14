@@ -1,6 +1,6 @@
-import { Character } from './tamplate_character/Character';
+import { MathCharacter } from './MathAttack/MathCharacter';
 
-export class Magician extends Character {
+export class Magician extends MathCharacter {
   constructor(name) {
     super(name, 'Magician');
 

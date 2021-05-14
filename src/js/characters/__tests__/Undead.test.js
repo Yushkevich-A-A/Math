@@ -10,11 +10,11 @@ const expected = {
 };
 
 test('correct creating Undead', () => {
-  const received = new Undead('Dracula', 'Undead');
+  const received = new Undead('Dracula');
 
   expect(received).toEqual(expected);
 });
 
 test('correct creating Undead without error', () => {
-  expect(() => new Undead('Dracula', 'Undead')).not.toThrowError();
+  expect(() => new Undead('Dracula')).not.toThrowError();
 });
